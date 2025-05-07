@@ -34,6 +34,5 @@ public class Payment {
     private String status; // e.g. PAID, FAILED
 
     @OneToOne
-    @JoinColumn(name = "booking_id", referencedColumnName = "id")
     private Booking booking;
 }

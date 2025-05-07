@@ -42,10 +42,8 @@ public class Field {
     private LocalTime closeTime;
 
     @ManyToOne
-    @JoinColumn(name = "organizer_id", referencedColumnName = "id")
     private Organizer organizer;
 
     @ManyToOne
-    @JoinColumn(name = "sport_id", referencedColumnName = "id")
     private Sport sport;
 }

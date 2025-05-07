@@ -16,11 +16,9 @@ public class Organizer {
     @Id
     private Integer id;
 
-    @NotEmpty(message = "License number must not be empty")
     @Column(columnDefinition = "varchar(10) not null unique")
     private String licenceNumber;
 
-    @NotEmpty(message = "Status must not be empty")
     @Column(columnDefinition = "varchar(20) not null")
     private String status;
 

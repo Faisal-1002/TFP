@@ -17,11 +17,9 @@ public class Player {
     @Id
     private Integer id;
 
-    @NotEmpty(message = "Gender must not be empty")
     @Column(columnDefinition = "varchar(10) not null")
     private String gender;
 
-    @Past(message = "Birth date must be in the past")
     @Column(columnDefinition = "date not null")
     private LocalDate birthDate;
 
@@ -34,6 +32,5 @@ public class Player {
     private PrivateMatch privateMatch;
 
     @ManyToOne
-    @JoinColumn(name = "public_match_id", referencedColumnName = "id")
     private PublicMatch publicMatch;
 }
