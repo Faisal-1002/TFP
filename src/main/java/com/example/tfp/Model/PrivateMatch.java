@@ -24,17 +24,15 @@ public class PrivateMatch {
     private String status;
 
     @OneToOne
-    @JoinColumn(name = "slot_id", referencedColumnName = "id")
     private TimeSlot timeSlot;
 
     @OneToOne(mappedBy = "privateMatch", cascade = CascadeType.ALL)
     private Booking booking;
 
-    @OneToMany(mappedBy = "privateMatch", cascade = CascadeType.ALL)
-    private List<Emails> emails;
+//    @OneToMany(mappedBy = "privateMatch", cascade = CascadeType.ALL)
+//    private List<Emails> emails;
 
     @OneToOne
-    @JoinColumn(name = "player_id", referencedColumnName = "id")
     private Player player;
 
     @OneToMany(mappedBy = "privateMatch", cascade = CascadeType.ALL)

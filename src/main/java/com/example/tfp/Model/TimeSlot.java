@@ -44,14 +44,11 @@ public class TimeSlot {
     private String status; // e.g., OPEN, FULL, CLOSED
 
     @ManyToOne
-    @JoinColumn(name = "field_id", referencedColumnName = "id")
     private Field field;
 
     @ManyToOne
-    @JoinColumn(name = "public_match_id")
     private PublicMatch publicMatch;
 
     @ManyToOne
-    @JoinColumn(name = "private_match_id")
     private PrivateMatch privateMatch;
 }

@@ -30,11 +30,9 @@ public class Booking {
     private Boolean isPaid;
 
     @OneToOne
-    @JoinColumn(name = "private_match_id", referencedColumnName = "id")
     private PrivateMatch privateMatch;
 
     @ManyToOne
-    @JoinColumn(name = "public_match_id", referencedColumnName = "id")
     private PublicMatch publicMatch;
 
     @OneToOne(mappedBy = "booking", cascade = CascadeType.ALL)
