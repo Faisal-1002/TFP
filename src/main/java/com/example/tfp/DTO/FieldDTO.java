@@ -1,5 +1,8 @@
 package com.example.tfp.DTO;
 
+import jakarta.persistence.Column;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -25,5 +28,8 @@ public class FieldDTO {
 
     @NotNull(message = "Close time must not be null")
     private LocalTime closeTime;
+
+    @NotNull(message = "capacity must not be empty")
+    private Integer capacity;
 
 }

@@ -1,6 +1,8 @@
 package com.example.tfp.Model;
 
 import jakarta.persistence.*;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.*;
@@ -35,6 +37,12 @@ public class Field {
 
     @Column(columnDefinition = "time not null")
     private LocalTime closeTime;
+
+    @NotNull(message = "capacity must not be empty")
+    @Column(columnDefinition = "capacity not null")
+    @Min(value = 2)
+    @Max(value = 22)
+    private Integer capacity;
 
     @ManyToOne
     private Organizer organizer;
