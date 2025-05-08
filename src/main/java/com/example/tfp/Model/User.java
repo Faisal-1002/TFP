@@ -1,9 +1,6 @@
 package com.example.tfp.Model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -32,6 +29,16 @@ public class User implements UserDetails {
 
     @NotEmpty
     private String role;
+
+
+    //------------------------------------------------------
+
+    @OneToOne(cascade = CascadeType.ALL, mappedBy = "user")
+    @PrimaryKeyJoinColumn
+    private Organizer organizer;
+
+    //------------------------------------------------------
+
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
