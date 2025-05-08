@@ -30,13 +30,13 @@ public class PublicMatch {
     @ManyToOne
     private Field field;
 
-//    @OneToOne
-//    @JoinColumn(name = "team_a_id", referencedColumnName = "id")
-//    private TeamA teamA;
-//
-//    @OneToOne
-//    @JoinColumn(name = "team_b_id", referencedColumnName = "id")
-//    private TeamB teamB;
+    @OneToOne
+    @JoinColumn(name = "team_a_id", referencedColumnName = "id")
+    private TeamA teamA;
+
+    @OneToOne
+    @JoinColumn(name = "team_b_id", referencedColumnName = "id")
+    private TeamB teamB;
 
     @ManyToOne
     private Player player;
