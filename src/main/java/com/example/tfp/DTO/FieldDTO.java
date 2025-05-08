@@ -1,5 +1,8 @@
 package com.example.tfp.DTO;
 
+import jakarta.persistence.Column;
+import jakarta.validation.constraints.Max;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import lombok.AllArgsConstructor;
@@ -11,20 +14,22 @@ import java.time.LocalTime;
 @AllArgsConstructor
 public class FieldDTO {
 
-
-    @NotEmpty
+    @NotEmpty(message = "Field name must not be empty")
     private String name;
 
-    @NotEmpty
+    @NotEmpty(message = "Location must not be empty")
     private String location;
 
-    @NotEmpty
+    @NotEmpty(message = "Description must not be empty")
     private String description;
 
-    @NotNull
+    @NotNull(message = "Open time must not be null")
     private LocalTime openTime;
 
-    @NotNull
+    @NotNull(message = "Close time must not be null")
     private LocalTime closeTime;
+
+    @NotNull(message = "capacity must not be empty")
+    private Integer capacity;
 
 }

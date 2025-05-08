@@ -6,33 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="c3add9e2-7d60-4e6e-b47b-9c198a1b598f" name="Changes" comment="انشأت CRUD حق المنشأة.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/FieldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/FieldController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/TeamAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/TeamAController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/PublicMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/PublicMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/TeamA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/TeamA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/TeamB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/TeamB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/TeamARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/TeamARepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/TeamBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/TeamBRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/FieldService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/FieldService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/TeamAService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/TeamAService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/TeamBService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/TeamBService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/TimeSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/TimeSlot.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/FieldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/FieldController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/TeamAController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/TeamAController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/DTO/FieldDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/DTO/FieldDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/PublicMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/PublicMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/TeamA.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/TeamA.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/TeamB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/TeamB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/FieldRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/FieldRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/TeamARepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/TeamARepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/TeamBRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/TeamBRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/FieldService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/FieldService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/TeamAService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/TeamAService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/TeamBService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/TeamBService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +41,12 @@
     &quot;assignee&quot;: &quot;TAHA20-23&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Faisal-1002/TFP.git&quot;,
-    &quot;accountId&quot;: &quot;bbfb1a05-2b02-4c65-b6e4-e28ce55df51b&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Faisal-1002/TFP.git",
+    "accountId": "7bfcc76a-75d1-45eb-a0dc-58ee28979f5f"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -78,26 +56,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Spring Boot.TfpApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Taha&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Spring Boot.TfpApplication.executor": "Run",
+    "git-widget-placeholder": "Eatzaz",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="TfpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TFP" />
@@ -123,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746644848320</updated>
-      <workItem from="1746644849536" duration="26075000" />
+      <workItem from="1746644849536" duration="17191000" />
+      <workItem from="1746692929954" duration="2536000" />
     </task>
     <task id="LOCAL-00001" summary="انشأت CRUD حق المنشأة.">
       <option name="closed" value="true" />
@@ -133,31 +112,7 @@
       <option name="project" value="LOCAL" />
       <updated>1746688264646</updated>
     </task>
-    <task id="LOCAL-00002" summary="انشأت CRUD حق المنشأة.">
-      <option name="closed" value="true" />
-      <created>1746688989691</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1746688989691</updated>
-    </task>
-    <task id="LOCAL-00003" summary="انشأت CRUD حق المنشأة.">
-      <option name="closed" value="true" />
-      <created>1746689089863</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1746689089863</updated>
-    </task>
-    <task id="LOCAL-00004" summary="انشأت CRUD حق المنشأة.">
-      <option name="closed" value="true" />
-      <created>1746689152331</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1746689152331</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -24,8 +24,6 @@ public class FieldService {
     private final FieldRepository fieldRepository;
     private final OrganizerRepository organizerRepository;
 
-
-
     public List<Field> getAllFields(){
         return fieldRepository.findAll();
     }
@@ -60,7 +58,7 @@ public class FieldService {
 
         String photo= saveImage(photoFile);
 
-        Field field = new Field(null,fieldDTO.getName(),fieldDTO.getLocation(),fieldDTO.getDescription(),photo,fieldDTO.getOpenTime(),fieldDTO.getCloseTime(),organizer1,null);
+        Field field = new Field(null,fieldDTO.getName(),fieldDTO.getLocation(),fieldDTO.getDescription(),photo,fieldDTO.getOpenTime(),fieldDTO.getCloseTime(),fieldDTO.getCapacity(),organizer1,null);
 
         fieldRepository.save(field);
 
