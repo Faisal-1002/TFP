@@ -1,67 +1,76 @@
 package com.example.tfp.Model;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotEmpty;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import jakarta.validation.constraints.*;
+import lombok.*;
+import org.hibernate.annotations.Check;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
-import java.util.List;
+import java.util.Collections;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
+@Check(constraints = "role = 'PLAYER' OR role = 'ORGANIZER' OR role = 'ADMIN'")
 public class User implements UserDetails {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @NotEmpty
+    @Column(columnDefinition = "varchar(30) not null unique")
     private String username;
 
-    @NotEmpty
+    @Column(columnDefinition = "varchar(255) not null")
     private String password;
 
-    @NotEmpty
+    @Column(columnDefinition = "varchar(20) not null")
     private String role;
 
+    @Column(columnDefinition = "varchar(50) not null")
+    private String name;
 
-    //------------------------------------------------------
+    @Column(columnDefinition = "varchar(10) not null")
+    private String phone;
 
-    @OneToOne(cascade = CascadeType.ALL, mappedBy = "user")
-    @PrimaryKeyJoinColumn
+    @Column(columnDefinition = "varchar(20) not null")
+    private String city;
+
+    @Column(columnDefinition = "varchar(100) not null unique")
+    private String email;
+
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private Player player;
+
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
     private Organizer organizer;
-
-    //------------------------------------------------------
-
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return List.of();
+        return Collections.singleton(new SimpleGrantedAuthority(this.role));
     }
 
     @Override
     public boolean isAccountNonExpired() {
-        return UserDetails.super.isAccountNonExpired();
+        return true;
     }
 
     @Override
     public boolean isAccountNonLocked() {
-        return UserDetails.super.isAccountNonLocked();
+        return true;
     }
 
     @Override
     public boolean isCredentialsNonExpired() {
-        return UserDetails.super.isCredentialsNonExpired();
+        return true;
     }
 
     @Override
     public boolean isEnabled() {
-        return UserDetails.super.isEnabled();
+        return true;
     }
 }

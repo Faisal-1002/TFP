@@ -23,9 +23,9 @@ public class ControllerAdvice {
 
 
     @ExceptionHandler(value = ApiException.class)
-    public ResponseEntity<?> ApiException(ApiException e){
-        String message=e.getMessage();
-        return ResponseEntity.status(400).body(message);
+    public ResponseEntity<ApiResponse> ApiException(ApiException e){
+        String message = e.getMessage();
+        return ResponseEntity.status(400).body(new ApiResponse(message));
     }
 
     @ExceptionHandler(value = NullPointerException.class)
@@ -105,9 +105,10 @@ public class ControllerAdvice {
 
 
     @ExceptionHandler(value = NoResourceFoundException.class)
-    public ResponseEntity<?> NoResourceFoundException(NoResourceFoundException noResourceFoundException){
-        String message=noResourceFoundException.getMessage();
-        return ResponseEntity.status(400).body(message);
+    public ResponseEntity<ApiResponse> NoResourceFoundException(NoResourceFoundException e){
+        String message = e.getMessage();
+        return ResponseEntity.status(400).body(new ApiResponse(message));
     }
+
 
 }

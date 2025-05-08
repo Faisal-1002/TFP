@@ -2,28 +2,34 @@ package com.example.tfp.Model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
 import lombok.*;
 
-import java.util.Set;
+import java.util.List;
 
-@Setter
-@Getter
+@Data
 @AllArgsConstructor
-@Entity
 @NoArgsConstructor
+@Entity
 public class Organizer {
 
     @Id
     private Integer id;
 
+    @Column(columnDefinition = "varchar(10) not null unique")
+    private String licenceNumber;
 
-
-    //-------------------------------------------------------------------
-    @OneToMany(cascade = CascadeType.ALL, mappedBy = "organizer")
-    private Set<Field> fields;
+    @Column(columnDefinition = "varchar(20) not null")
+    private String status;
 
     @OneToOne
+    @MapsId
     @JsonIgnore
     private User user;
 
+    @OneToMany(mappedBy = "organizer", cascade = CascadeType.ALL)
+    private List<Field> fields;
+
+    @OneToMany(mappedBy = "organizer", cascade = CascadeType.ALL)
+    private List<PublicMatch> publicMatches;
 }
