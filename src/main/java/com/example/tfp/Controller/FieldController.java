@@ -23,9 +23,7 @@ public class FieldController {
     }
 
     @PostMapping("/add")
-    public ResponseEntity addField(@AuthenticationPrincipal Organizer organizer,
-                                           @ModelAttribute FieldDTO fieldDTO,
-                                           @RequestPart MultipartFile photoFile) {
+    public ResponseEntity addField(@AuthenticationPrincipal Organizer organizer,@ModelAttribute FieldDTO fieldDTO,@RequestPart MultipartFile photoFile) {
         fieldService.addField(organizer.getId(), fieldDTO, photoFile);
         return ResponseEntity.status(200).body("Field added successfully");
     }
