@@ -31,8 +31,10 @@ public class Field {
 
     @ManyToOne
     @JsonIgnore
-    @JoinColumn(name = "organizer_id", referencedColumnName = "id")
     private Organizer organizer;
+
+    @ManyToOne
+    private Sport sport;
 
 
 

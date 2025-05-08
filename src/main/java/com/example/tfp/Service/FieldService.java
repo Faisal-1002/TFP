@@ -60,7 +60,7 @@ public class FieldService {
 
         String photo= saveImage(photoFile);
 
-        Field field = new Field(null,fieldDTO.getName(),fieldDTO.getLocation(),fieldDTO.getDescription(),photo,fieldDTO.getOpenTime(),fieldDTO.getCloseTime(),organizer1);
+        Field field = new Field(null,fieldDTO.getName(),fieldDTO.getLocation(),fieldDTO.getDescription(),photo,fieldDTO.getOpenTime(),fieldDTO.getCloseTime(),organizer1,null);
 
         fieldRepository.save(field);
 
