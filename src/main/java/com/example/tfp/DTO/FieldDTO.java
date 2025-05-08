@@ -11,20 +11,19 @@ import java.time.LocalTime;
 @AllArgsConstructor
 public class FieldDTO {
 
-
-    @NotEmpty
+    @NotEmpty(message = "Field name must not be empty")
     private String name;
 
-    @NotEmpty
+    @NotEmpty(message = "Location must not be empty")
     private String location;
 
-    @NotEmpty
+    @NotEmpty(message = "Description must not be empty")
     private String description;
 
-    @NotNull
+    @NotNull(message = "Open time must not be null")
     private LocalTime openTime;
 
-    @NotNull
+    @NotNull(message = "Close time must not be null")
     private LocalTime closeTime;
 
 }

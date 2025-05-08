@@ -1,40 +1,44 @@
 package com.example.tfp.Model;
 
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import lombok.*;
 
 import java.time.LocalTime;
 
-@Setter
-@Getter
+@Data
 @AllArgsConstructor
-@Entity
 @NoArgsConstructor
+@Entity
 public class Field {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
+    @Column(columnDefinition = "varchar(50) not null")
     private String name;
+
+    @Column(columnDefinition = "varchar(100) not null")
     private String location;
 
+    @Column(columnDefinition = "varchar(200) not null")
     private String description;
+
+    @NotEmpty(message = "Photo URL must not be empty")
+    @Column(columnDefinition = "varchar(255) not null")
     private String photo;
+
+    @Column(columnDefinition = "time not null")
     private LocalTime openTime;
+
+    @Column(columnDefinition = "time not null")
     private LocalTime closeTime;
 
     @ManyToOne
-    @JsonIgnore
-    @JoinColumn(name = "organizer_id", referencedColumnName = "id")
     private Organizer organizer;
 
-
-
-
+    @ManyToOne
+    private Sport sport;
 }
