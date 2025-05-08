@@ -4,83 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="29527069-c729-491f-91f0-23625154c93c" name="Changes" comment="Models">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TFP.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Advice/ControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Advice/ControllerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/OrganizerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/OrganizerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/PlayerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/PlayerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/PrivateMatchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/PrivateMatchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/PublicMatchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/PublicMatchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/TimeSlotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Controller/TimeSlotController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/DTO/OrganizerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/DTO/OrganizerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/DTO/PlayerDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/DTO/PlayerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Field.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Field.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Organizer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Organizer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Payment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/PrivateMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/PrivateMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/PublicMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/PublicMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/TimeSlot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/TimeSlot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/BookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/FieldRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/FieldRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/OrganizerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/OrganizerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/PaymentRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/PaymentRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/PlayerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/PlayerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/PrivateMatchRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/PrivateMatchRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/PublicMatchRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/PublicMatchRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/SportRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/SportRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/TimeSlotRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Repository/TimeSlotRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/OrganizerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/OrganizerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/PlayerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/PlayerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/PrivateMatchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/PrivateMatchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/PublicMatchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/PublicMatchService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/TimeSlotService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/tfp/Service/TimeSlotService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Advice/ControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Advice/ControllerAdvice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/BookingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/OrganizerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/OrganizerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/PlayerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/PlayerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/PrivateMatchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/PrivateMatchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/PublicMatchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/PublicMatchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/TimeSlotController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Controller/TimeSlotController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/DTO/OrganizerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/DTO/OrganizerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/DTO/PlayerDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/DTO/PlayerDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Field.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Field.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Organizer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Organizer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Payment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/PrivateMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/PrivateMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/PublicMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/PublicMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Sport.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/Sport.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/TimeSlot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/TimeSlot.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/BookingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/BookingRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/FieldRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/FieldRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/OrganizerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/OrganizerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/PaymentRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/PaymentRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/PlayerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/PlayerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/PrivateMatchRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/PrivateMatchRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/PublicMatchRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/PublicMatchRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/SportRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/SportRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/TimeSlotRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Repository/TimeSlotRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/BookingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/OrganizerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/OrganizerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/PlayerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/PlayerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/PrivateMatchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/PrivateMatchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/PublicMatchService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/PublicMatchService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/TimeSlotService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/tfp/Service/TimeSlotService.class" afterDir="false" />
+    <list default="true" id="c3add9e2-7d60-4e6e-b47b-9c198a1b598f" name="Changes" comment="انشأت CRUD حق المنشأة.">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/tfp/Model/PublicMatch.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -90,29 +30,22 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Faisal-1002&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "TAHA20-23"
   }
-}</component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="main" />
-      </list>
-    </option>
-  </component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Faisal-1002/TFP&quot;,
-    &quot;accountId&quot;: &quot;d825ee69-d8b8-481c-8795-aac391070904&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Faisal-1002/TFP.git",
+    "accountId": "bbfb1a05-2b02-4c65-b6e4-e28ce55df51b"
   }
-}</component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="2wmQ28oa4QN0TQ7VNAtMOzWOTeE" />
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2wmRdOVEJlEXxbJJedkY8xwe7JC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -126,9 +59,8 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.TfpApplication.executor": "Run",
-    "git-widget-placeholder": "Faisal",
+    "git-widget-placeholder": "Taha",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -137,25 +69,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
-    ]
   }
 }]]></component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="TFP" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="TFP" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
     <configuration name="TfpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="TFP" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.tfp.TfpApplication" />
@@ -167,46 +83,54 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.39" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.39" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="29527069-c729-491f-91f0-23625154c93c" name="Changes" comment="" />
-      <created>1746644059197</created>
+      <changelist id="c3add9e2-7d60-4e6e-b47b-9c198a1b598f" name="Changes" comment="" />
+      <created>1746644848320</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1746644059197</updated>
-      <workItem from="1746644060238" duration="36000" />
-      <workItem from="1746645517018" duration="9015000" />
+      <updated>1746644848320</updated>
+      <workItem from="1746644849536" duration="17191000" />
     </task>
-    <task id="LOCAL-00001" summary="Models">
+    <task id="LOCAL-00001" summary="انشأت CRUD حق المنشأة.">
       <option name="closed" value="true" />
-      <created>1746652186326</created>
+      <created>1746688264646</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1746652186326</updated>
+      <updated>1746688264646</updated>
     </task>
-    <task id="LOCAL-00002" summary="Models">
-      <option name="closed" value="true" />
-      <created>1746652448898</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1746652448898</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Models" />
-    <option name="LAST_COMMIT_MESSAGE" value="Models" />
+    <MESSAGE value="انشأت CRUD حق المنشأة." />
+    <option name="LAST_COMMIT_MESSAGE" value="انشأت CRUD حق المنشأة." />
   </component>
 </project>

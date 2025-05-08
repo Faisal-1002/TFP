@@ -6,5 +6,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface FieldRepository extends JpaRepository<Field, Integer> {
+
+
     Field findFieldById(Integer id);
 }

@@ -1,49 +1,40 @@
 package com.example.tfp.Model;
 
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import java.time.LocalTime;
 
-@Data
+@Setter
+@Getter
 @AllArgsConstructor
-@NoArgsConstructor
 @Entity
+@NoArgsConstructor
 public class Field {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @NotEmpty(message = "Field name must not be empty")
-    @Column(columnDefinition = "varchar(50) not null")
     private String name;
-
-    @NotEmpty(message = "Location must not be empty")
-    @Column(columnDefinition = "varchar(100) not null")
     private String location;
 
-    @NotEmpty(message = "Description must not be empty")
-    @Column(columnDefinition = "varchar(200) not null")
     private String description;
-
-    @NotEmpty(message = "Photo URL must not be empty")
-    @Column(columnDefinition = "varchar(255) not null")
     private String photo;
-
-    @NotNull(message = "Open time must not be null")
-    @Column(columnDefinition = "time not null")
     private LocalTime openTime;
-
-    @NotNull(message = "Close time must not be null")
-    @Column(columnDefinition = "time not null")
     private LocalTime closeTime;
 
     @ManyToOne
+    @JsonIgnore
+    @JoinColumn(name = "organizer_id", referencedColumnName = "id")
     private Organizer organizer;
 
-    @ManyToOne
-    private Sport sport;
+
+
+
 }
